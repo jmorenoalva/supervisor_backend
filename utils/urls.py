@@ -3,12 +3,12 @@ from django.urls import path
 from .views import TypeDocumentViews, UbigeoViews, TypeInvoiceViews, PeriodViews
 
 urlpatterns = [
-    path("typedocument/", TypeDocumentViews.as_view()),
-    path("typedocument/<int:id>", TypeDocumentViews.as_view()),
-    path("ubigeo/", UbigeoViews.as_view()),
-    path("ubigeo/<int:id>", UbigeoViews.as_view()),
-    path("typeinvoice/", TypeInvoiceViews.as_view()),
-    path("typeinvoice/<int:id>", TypeInvoiceViews.as_view()),
-    path("period/", PeriodViews.as_view()),
-    path("period/<int:id>", PeriodViews.as_view()),
+    path("api/v1/typedocument/", TypeDocumentViews.as_view()),
+    path("api/v1/typedocument/<int:id>", TypeDocumentViews.as_view()),
+    path("api/v1/ubigeo/", UbigeoViews.as_view()),
+    path("api/v1/ubigeo/<int:id>", UbigeoViews.as_view()),
+    path("api/v1/typeinvoice/", TypeInvoiceViews.as_view()),
+    path("api/v1/typeinvoice/<int:id>", TypeInvoiceViews.as_view()),
+    path("api/v1/period/", PeriodViews.as_view()),
+    path("api/v1/period/<int:id>", PeriodViews.as_view()),
 ]

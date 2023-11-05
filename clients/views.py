@@ -75,7 +75,7 @@ class TypeClientViews(GenericAPIView):
       "status":"success",
       "data":"Item Deleted"
     })
-
+type_client_views = TypeClientViews()
 class ClientViews(GenericAPIView):
   serializer_class=ClientSerializer
   pagination_class=PageNumberPagination
