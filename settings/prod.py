@@ -5,6 +5,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+ALLOWED_HOSTS = ['*']  #PARA QUE CUALQUIERA IP SE CONECTE
+
 # DEBUG = False
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
@@ -30,3 +32,5 @@ DATABASES = {
         'PORT': os.getenv('PORT'),
     }
 }
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
