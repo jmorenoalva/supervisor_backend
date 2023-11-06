@@ -22,6 +22,10 @@ Para crear un super usuario y acceder al admin:
 make createsuperuser
 ```
 
+Correr el collectstatic para los archivos estaticos
+
+make collect
+
 Para levantar el servidor:
 
 ```
