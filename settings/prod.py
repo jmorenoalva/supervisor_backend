@@ -5,6 +5,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = False
+
 ALLOWED_HOSTS = ['*']  #PARA QUE CUALQUIERA IP SE CONECTE
 
 # DEBUG = False
