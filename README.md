@@ -40,4 +40,3 @@ PASSWORD_DATABASE='password'
 HOST='ipolocalhost'
 PORT='puerto'
 ```
-python manage.py runserver
