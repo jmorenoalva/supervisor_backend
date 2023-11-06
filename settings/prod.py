@@ -5,10 +5,14 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+<<<<<<< Updated upstream
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
 ALLOWED_HOSTS = ['*']  #PARA QUE CUALQUIERA IP SE CONECTE
+=======
+ALLOWED_HOSTS = ['*']
+>>>>>>> Stashed changes
 
 # DEBUG = False
 # Database
@@ -36,4 +40,8 @@ DATABASES = {
     }
 }
 
+<<<<<<< Updated upstream
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+=======
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+>>>>>>> Stashed changes
